@@ -64,3 +64,9 @@ fun SquareComposablePreview() {
         Text(text = "Hello World")
     }
 }
+
+@Preview(showBackground = true, backgroundColor = 0xFF00FF00)
+@Composable
+fun WithGreenBackground() {
+    Text(text = "Hello World")
+}
