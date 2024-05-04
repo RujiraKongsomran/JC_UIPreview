@@ -76,3 +76,21 @@ fun WithGreenBackground() {
 fun DecoratedComposablePreview() {
     Text(text = "Hello World")
 }
+
+@Preview(
+    name = "small font",
+    group = "font scales",
+    fontScale = 0.5f
+)
+@Preview(
+    name = "large font",
+    group = "font scales",
+    fontScale = 1.5f
+)
+annotation class FontScalePreviews
+
+@FontScalePreviews
+@Composable
+fun HelloWorldPreview() {
+    Text(text = "Hello World")
+}
