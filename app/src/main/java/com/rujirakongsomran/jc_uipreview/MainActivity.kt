@@ -70,3 +70,9 @@ fun SquareComposablePreview() {
 fun WithGreenBackground() {
     Text(text = "Hello World")
 }
+
+@Preview(showSystemUi = true)
+@Composable
+fun DecoratedComposablePreview() {
+    Text(text = "Hello World")
+}
